@@ -2,7 +2,7 @@ package com.api.automation;
 
 import io.restassured.RestAssured;
 
-public class Test002 {
+public class Test002_get {
 
     public static void main(String[] args){
 
@@ -17,7 +17,7 @@ public class Test002 {
         RestAssured
                 .given()
                     .baseUri("https://restful-booker.herokuapp.com")
-                    .basePath("/booking/2").log().all()
+                    .basePath("/booking/1001").log().all()
                 .when()
                     .get()
                 .then().log().all()
