@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/anand singh/IdeaProjects/API_AUTOMATION_PROGRAMS">
+        <classes>
+            <class name="com.api.automation.ex_11042025.CRUD.POST.NON_BDD_STYLE_POST">
+                <methods>
+                    <include name="main"/>
+                </methods>
+            </class>
+            <class name="com.api.automation.ex_11042025.CRUD.PUT.NonBDDSTYLE">
+                <methods>
+                    <include name="test_get"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
